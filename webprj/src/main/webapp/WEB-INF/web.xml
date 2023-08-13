@@ -11,7 +11,7 @@
 	</servlet>
 	<servlet-mapping>
 	      <servlet-name>dispatcher</servlet-name>
-		<url-pattern>/*</url-pattern> <!--디스패처로 들어갈 jsp 파일 패턴, 모든 jsp -->
+		<url-pattern>/</url-pattern> <!--디스패처로 들어갈 jsp 파일 패턴, 모든 jsp -->
 	</servlet-mapping>
 
 	<display-name>Welcome to Tomcat</display-name>
