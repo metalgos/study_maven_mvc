@@ -11,7 +11,7 @@ public class DetailController implements Controller {
 	@Override
 	public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		System.out.println("DetailControoler in ");
-		ModelAndView mv = new ModelAndView("notice/detail");//실제로 찾아갈 주소
+		ModelAndView mv = new ModelAndView("notice.detail");//실제로 찾아갈 주소
 		
 		//mv.setViewName("/WEB-INF/view/index.jsp");
 		
