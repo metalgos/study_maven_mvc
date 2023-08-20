@@ -13,7 +13,7 @@ public class IndexController implements Controller {
 		
 		
 		System.out.println("index controoler in ");
-		ModelAndView mv = new ModelAndView("index");
+		ModelAndView mv = new ModelAndView("root.index");
 		mv.addObject("data", "Welcome to Spring");
 		//mv.setViewName("/WEB-INF/view/index.jsp");
 		
