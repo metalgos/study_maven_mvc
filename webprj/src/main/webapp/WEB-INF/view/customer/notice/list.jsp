@@ -46,15 +46,15 @@
 					</thead>
 					<tbody>
 							
-							<c:forEach var="n" items="list">
+							<c:forEach var="n" items="${list}">
 					<tr>
-						<td>${n.id}</td>
-						<td class="title indent text-align-left"><a href="detail">스프링 8강까지의 예제 코드</a></td>
-						<td>newlec</td>
+						<td>${n.id()}</td>
+						<td class="title indent text-align-left"><a href="detail">${n.tile}</a></td>
+						<td>${n.writerId}</td>
 						<td>
-							2019-08-18		
+							${n.regDate}		
 						</td>
-						<td>146</td>
+						<td>${n.hit}</td>
 					</tr>
 					</c:forEach>
 							

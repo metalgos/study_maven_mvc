@@ -33,7 +33,7 @@ public class ListController implements Controller {
 		
 		ModelAndView mv = new ModelAndView("notice.list");//실제로 찾아갈 주소
 		
-		List<Notice> list = noticeService.getList(1, "title", "");
+		List<Notice> list = noticeService.getList(1, "TITLE", "");
 		
 		mv.addObject("list", list);
 		
