@@ -48,7 +48,7 @@
 							
 							<c:forEach var="n" items="${list}">
 					<tr>
-						<td>${n.id()}</td>
+						<td>${n.id}</td>
 						<td class="title indent text-align-left"><a href="detail">${n.tile}</a></td>
 						<td>${n.writerId}</td>
 						<td>
