@@ -46,7 +46,7 @@
 
 
 	<bean id="noticeService"
-		class="com.newlecture.web.service.NoticeService" />
+		class="com.newlecture.web.service.jdbc.JDBCNoticeService" />
 
 
 </beans>
