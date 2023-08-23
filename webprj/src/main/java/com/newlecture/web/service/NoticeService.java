@@ -13,7 +13,7 @@ import java.util.List;
 import com.newlecture.web.entity.Notice;
 
 public class NoticeService {
-	private String url = "jdbc:oracle:thin:@localhost:1521:xe";
+	private String url = "jdbc:oracle:thin:@localhost:1521:xe"; //각가 환경에 맞게 바꿔줘야함.
 	private String uid = "hr";
 	private String pwd = "hr";
 	private String driver = "oracle.jdbc.driver.OracleDriver";
