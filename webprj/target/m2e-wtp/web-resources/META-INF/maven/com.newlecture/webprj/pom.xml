@@ -28,10 +28,6 @@
 			<artifactId>spring-jdbc</artifactId>
 			<version>5.2.25.RELEASE</version>
 		</dependency>
-
-
-
-
 		<dependency>
 			<groupId>org.apache.tiles</groupId>
 			<artifactId>tiles-jsp</artifactId>
