@@ -14,10 +14,7 @@
 	
 	<bean name="/notice/detail"
 		class="com.newlecture.web.controller.notice.DetailController" />
-
-
 	<!-- 타일즈 뷰리졸버 -->
-
 	<bean
 		class="org.springframework.web.servlet.view.UrlBasedViewResolver">
 		<property name="viewClass"
