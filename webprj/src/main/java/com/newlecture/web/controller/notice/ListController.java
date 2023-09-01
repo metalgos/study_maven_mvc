@@ -15,19 +15,10 @@ import com.newlecture.web.service.jdbc.JDBCNoticeService;
 
 public class ListController implements Controller {
 	
-	
+	@Autowired
 	private NoticeService noticeService;
 	
 	
-	
-@Autowired
-	public void setNoticeService(JDBCNoticeService noticeService) {
-		this.noticeService = noticeService;
-	}
-
-
-
-
 	@Override
 	public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		System.out.println("ListControoler in ");
