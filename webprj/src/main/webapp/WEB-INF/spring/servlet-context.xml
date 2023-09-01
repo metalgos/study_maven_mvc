@@ -8,18 +8,7 @@
     
 	<context:component-scan base-package="com.newlecture.web.controller"></context:component-scan>
 
-    
-	<!-- <bean name="/index"
-		class="com.newlecture.web.controller.IndexController" />
- -->
-	<bean name="/notice/list"
-		class="com.newlecture.web.controller.notice.ListController">
-		<!-- <property name="noticeService" ref="noticeService"></property> -->
-	</bean>
 
-	<bean name="/notice/detail"
-		class="com.newlecture.web.controller.notice.DetailController" />
-	<!-- 타일즈 뷰리졸버 -->
 	<bean
 		class="org.springframework.web.servlet.view.UrlBasedViewResolver">
 		<property name="viewClass"
