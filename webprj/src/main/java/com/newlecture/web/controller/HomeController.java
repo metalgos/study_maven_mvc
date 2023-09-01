@@ -6,10 +6,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 
 @Controller
-public class IndexController {
+public class HomeController {
 	
 	@RequestMapping("/index")
-	public void aaa() {
+	public String index() {
+		return "root.index";
+	}
+
+	@RequestMapping("/help")
+	public void help() {
 		System.out.println("테스트 인덱스 리퀘스트 매핑 진입");
 	}
 	
