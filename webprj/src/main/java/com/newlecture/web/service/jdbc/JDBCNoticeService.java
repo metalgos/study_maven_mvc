@@ -12,11 +12,13 @@ import java.util.List;
 import javax.sql.DataSource;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import com.newlecture.web.entity.Notice;
 import com.newlecture.web.service.NoticeService;
 
-
+@Service //컴포넌트는 컨트롤러 레포지토리 등등으로 나눌수 있음
 public class JDBCNoticeService implements NoticeService {
 	/*
 	 * private String url = "jdbc:oracle:thin:@localhost:1521:xe"; //각가 환경에 맞게

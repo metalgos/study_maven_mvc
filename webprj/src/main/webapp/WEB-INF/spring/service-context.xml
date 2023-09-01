@@ -8,11 +8,11 @@
     
 	<context:annotation-config/>
 	
-    	<bean id="noticeService"
+    	<!-- <bean id="noticeService"
 		class="com.newlecture.web.service.jdbc.JDBCNoticeService" >
-		<!-- <property name="dataSource" ref = "dataSource"/> -->
+		<property name="dataSource" ref = "dataSource"/>
 		
-		</bean>
+		</bean> -->
     
 		<bean id = "dataSource" class = "org.springframework.jdbc.datasource.DriverManagerDataSource">
 	    <property name="driverClassName" value ="oracle.jdbc.driver.OracleDriver"></property>
